@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-rpi-shutdown",
+  "version": "0.0.1",
+  "description": "Nodes to shutdown or restart your Raspberry Pi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokiiio/node-red-contrib-rpi-shutdown.git"
+  },
+  "keywords": [
+    "node-red",
+    "Raspberry Pi",
+    "pokiiio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokiiio/node-red-contrib-rpi-shutdown/issues"
+  },
+  "homepage": "https://github.com/pokiiio/node-red-contrib-rpi-shutdown#readme",
+  "node-red": {
+    "nodes": {
+      "shutdown": "shutdown.js",
+      "restart": "restart.js"
+    }
+  }
+}
